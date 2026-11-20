@@ -1,1 +1,17 @@
-{"DATA":{}}
+{
+  "DATA": {
+    "https://github.com/bucanero/apollo-ps4/releases/download/v2.4.0/IV0000-APOL00004_00-APOLLO0000000PS4.pkg": {
+      "name": "Apollo Save Tool",
+      "version": "2.4.0",
+      "release": "10-17-2026",
+      "size": 22806528,
+      "region": "UNK",
+      "min_fw": null,
+      "cover_url": "https://raw.githubusercontent.com/bucanero/apollo-ps4/v2.4.0/docs/screenshots/screenshot-main.jpg",
+      "developer": "bucanero",
+      "license": "GPL-3.0-or-later",
+      "source_url": "https://github.com/bucanero/apollo-ps4",
+      "official_sha256": "ec34add4d2857fa3c947ed5666735a5c35ddb3e47d8be925b36e9ad408f7c090"
+    }
+  }
+}
