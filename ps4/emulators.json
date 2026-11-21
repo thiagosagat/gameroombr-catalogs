@@ -7,6 +7,7 @@
       "size": 8192000,
       "cover_url": "https://raw.githubusercontent.com/uomar8/ps4-gb-jit/main/assets/icon0.png",
       "developer": "uomar8",
+      "license": null,
       "source_url": "https://github.com/uomar8/ps4-gb-jit",
       "official_sha256": "3c65b808a78eb5c9a716681d58b48d03fd21cb61c90c57447b1e6f8ad7a4b2f6"
     }
