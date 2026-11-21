@@ -1,1 +1,15 @@
-{"DATA":{}}
+{
+  "DATA": {
+    "https://github.com/AldySan/ps4_remote_pkg_installer_nextgen/releases/download/v0.0.10/RemotePkgInstallerNextGen-0.0.10.pkg": {
+      "name": "Remote PKG Installer NextGen",
+      "version": "0.0.10",
+      "release": "11-19-2026",
+      "size": 6619136,
+      "cover_url": "https://raw.githubusercontent.com/AldySan/ps4_remote_pkg_installer_nextgen/v0.0.10/sce_sys/icon0.png",
+      "developer": "AldySan",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/AldySan/ps4_remote_pkg_installer_nextgen",
+      "official_sha256": "b5056590f8c114335d06477a4833503507a38aaeef1550a0b0672ea5fb13f057"
+    }
+  }
+}
