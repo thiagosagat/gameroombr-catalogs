@@ -26,14 +26,22 @@ class ValidateDocumentTests(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertEqual(count, 1)
 
-    def test_rejects_non_https_or_non_pkg_url(self):
+    def test_rejects_non_https_url(self):
         doc = {
             "DATA": {
-                "http://example.org/tool.zip": {"name": "Bad", "size": 123}
+                "http://example.org/tool.pkg": {"name": "Bad", "size": 123}
             }
         }
         errors, _ = validate_document("apps.json", doc)
         self.assertTrue(any("HTTPS" in error for error in errors))
+
+    def test_rejects_https_url_without_pkg_extension(self):
+        doc = {
+            "DATA": {
+                "https://example.org/tool.zip": {"name": "Bad", "size": 123}
+            }
+        }
+        errors, _ = validate_document("apps.json", doc)
         self.assertTrue(any("end in .pkg" in error for error in errors))
 
     def test_rejects_missing_name_and_invalid_size(self):
