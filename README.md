@@ -22,18 +22,39 @@ As cinco categorias principais da loja são PS1, PS2, PS4, APLICATIVOS e HOMEBRE
 
 Os arquivos usam o formato FPKGi nativo: objeto raiz `DATA`, com cada chave contendo uma URL HTTPS direta para um arquivo `.pkg`. Os campos `name` e `size` são obrigatórios; `size` é o tamanho exato em bytes.
 
-## Primeiro item Homebrew
+## Registros cadastrados
 
-O catálogo `homebrew.json` inclui o Apollo Save Tool v2.4.0, publicado pelo desenvolvedor original [bucanero](https://github.com/bucanero/apollo-ps4).
+### Homebrew — Apollo Save Tool v2.4.0
 
-- Página oficial: https://github.com/bucanero/apollo-ps4
-- Lançamento: https://github.com/bucanero/apollo-ps4/releases/tag/v2.4.0
+Publicado pelo desenvolvedor original [bucanero](https://github.com/bucanero/apollo-ps4).
+
 - Arquivo: `IV0000-APOL00004_00-APOLLO0000000PS4.pkg`
-- Tamanho registrado na API de Releases: 22.806.528 bytes
-- Licença declarada pelo projeto: GNU GPL v3 ou posterior
-- SHA-256 publicado na API de Releases: `ec34add4d2857fa3c947ed5666735a5c35ddb3e47d8be925b36e9ad408f7c090`
+- Tamanho: 22.806.528 bytes
+- Licença do projeto: GPL-3.0-or-later
+- SHA-256 publicado pelo GitHub: `ec34add4d2857fa3c947ed5666735a5c35ddb3e47d8be925b36e9ad408f7c090`
+- [Lançamento oficial](https://github.com/bucanero/apollo-ps4/releases/tag/v2.4.0)
 
-O endereço de download aponta para a publicação oficial do desenvolvedor. O cliente atual valida tamanho e cabeçalho PKG, mas ainda não verifica o SHA-256 integralmente.
+### Aplicativos — Remote PKG Installer NextGen v0.0.10
+
+Aplicativo GPL-3.0 de [AldySan](https://github.com/AldySan/ps4_remote_pkg_installer_nextgen), que recebe transferências de PKG pela rede local e usa o gerenciador BGFT do PS4.
+
+- Arquivo: `RemotePkgInstallerNextGen-0.0.10.pkg`
+- Tamanho: 6.619.136 bytes
+- SHA-256 publicado pelo GitHub: `b5056590f8c114335d06477a4833503507a38aaeef1550a0b0672ea5fb13f057`
+- [Lançamento oficial](https://github.com/AldySan/ps4_remote_pkg_installer_nextgen/releases/tag/v0.0.10)
+- O README do projeto cita teste em firmware 13.50; compatibilidade com outras versões precisa ser testada.
+
+### Emuladores — PS4 GB-JIT v1.0.0
+
+Emulador de Game Boy (DMG-01) de [uomar8](https://github.com/uomar8/ps4-gb-jit), com recompilador JIT, interface nativa e suporte a ROMs próprias do usuário.
+
+- Arquivo: `PS4-GB-JIT-v01.06.pkg`
+- Tamanho: 8.192.000 bytes
+- SHA-256 publicado pelo GitHub: `3c65b808a78eb5c9a716681d58b48d03fd21cb61c90c57447b1e6f8ad7a4b2f6`
+- [Lançamento oficial](https://github.com/uomar8/ps4-gb-jit/releases/tag/v1.0.0)
+- **Atenção:** o repositório consultado não declara uma licença de software. O catálogo apenas aponta para o lançamento oficial do autor; o PKG não é espelhado aqui. Obtenha confirmação do autor antes de qualquer redistribuição ou hospedagem própria.
+
+O cliente atual valida tamanho e cabeçalho PKG durante o download, mas ainda não verifica o SHA-256 integralmente. Os hashes acima são os publicados pela API de Releases do GitHub, não uma verificação byte a byte feita pelo cliente GAME ROOM BR.
 
 ## Validação automática
 
