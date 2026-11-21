@@ -10,6 +10,27 @@
       "license": "GPL-3.0",
       "source_url": "https://github.com/AldySan/ps4_remote_pkg_installer_nextgen",
       "official_sha256": "b5056590f8c114335d06477a4833503507a38aaeef1550a0b0672ea5fb13f057"
+    },
+    "https://github.com/LowganDev/PlayfinPS4/releases/download/2.3.1/IV0001-PLFN00000_00-PLFN000000100000.pkg": {
+      "name": "Playfin — Cliente Jellyfin para PS4",
+      "version": "2.3.1",
+      "release": "11-20-2026",
+      "size": 54722560,
+      "developer": "LowganDev",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/LowganDev/PlayfinPS4",
+      "official_sha256": "f75c9fbbf17dab9ef1f1ca86995866aff73e13d0107063a8fd22a340d050ea9b"
+    },
+    "https://github.com/jw-notes/Librarian/releases/download/v01.00/IV0000-LIBR00001_00-LIBRARIANPS40000.pkg": {
+      "name": "Librarian — Leitor de livros e documentos",
+      "version": "01.00",
+      "release": "11-15-2026",
+      "size": 26542080,
+      "cover_url": "https://raw.githubusercontent.com/jw-notes/Librarian/main/assets/icon0.png",
+      "developer": "jw-notes",
+      "license": "GPL-3.0-or-later + AGPL-3.0 (MuPDF; consulte NOTICE)",
+      "source_url": "https://github.com/jw-notes/Librarian",
+      "official_sha256": "df0b8b4fd4fedaa8bb530a3084bf46d48bafcd7c3cb32da4ed98a2c428ffaae1"
     }
   }
 }
