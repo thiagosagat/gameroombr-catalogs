@@ -1,15 +1,58 @@
 {
   "DATA": {
-    "https://github.com/uomar8/ps4-gb-jit/releases/download/v1.0.0/PS4-GB-JIT-v01.06.pkg": {
-      "name": "PS4 GB-JIT — Emulador Game Boy",
-      "version": "1.0.0",
-      "release": "11-19-2026",
-      "size": 8192000,
-      "cover_url": "https://raw.githubusercontent.com/uomar8/ps4-gb-jit/main/assets/icon0.png",
-      "developer": "uomar8",
-      "license": null,
-      "source_url": "https://github.com/uomar8/ps4-gb-jit",
-      "official_sha256": "3c65b808a78eb5c9a716681d58b48d03fd21cb61c90c57447b1e6f8ad7a4b2f6"
+    "https://github.com/NeomaMonroy/DuckStation-PS4/releases/download/v00.03/DuckStation-v00.03.pkg": {
+      "name": "DuckStation — Emulador PlayStation",
+      "version": "00.03",
+      "release": "11-08-2026",
+      "size": 59441152,
+      "developer": "NeomaMonroy",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/NeomaMonroy/DuckStation-PS4",
+      "official_sha256": "f2647245aee92d202078a10fd60422fb19b9c31a1f0a70aeb4cec3258b72ba7c"
+    },
+    "https://github.com/ps4-homebrew-dev/ppsspp/releases/download/v0.3-a50bb197/IV0000-PPSS00001_00-PPSSPPHOMEBREW00.pkg": {
+      "name": "PPSSPP — Emulador PSP",
+      "version": "0.3-a50bb197",
+      "release": "11-14-2026",
+      "size": 100728832,
+      "cover_url": "https://raw.githubusercontent.com/ps4-homebrew-dev/ppsspp/master/sce_sys/icon0.png",
+      "developer": "ps4-homebrew-dev",
+      "license": "GPL-2.0-or-later",
+      "source_url": "https://github.com/ps4-homebrew-dev/ppsspp",
+      "official_sha256": "9d6d8f8b8550ec7a84fcc7990a5b0abed1c43b7ab94c66e39581bc3a33afbea4"
+    },
+    "https://github.com/ps4-homebrew-dev/flycast/releases/download/v0.2-7adbf3ca/IV0000-FLYH00001_00-FLYCAST000000000.pkg": {
+      "name": "Flycast — Emulador Dreamcast / Naomi / Atomiswave",
+      "version": "0.2-7adbf3ca",
+      "release": "11-14-2026",
+      "size": 81330176,
+      "cover_url": "https://raw.githubusercontent.com/ps4-homebrew-dev/flycast/master/sce_sys/icon0.png",
+      "developer": "ps4-homebrew-dev",
+      "license": "GPL-2.0-or-later",
+      "source_url": "https://github.com/ps4-homebrew-dev/flycast",
+      "official_sha256": "be0c52aee8358c55f999f506eef6b306a325952873e31cc88ffd5603028b2a07"
+    },
+    "https://github.com/iHaiDeeZ/DolphinPS4/releases/download/v04.19/DolphinPS4-v04.19.pkg": {
+      "name": "DolphinPS4 — Emulador GameCube / Wii",
+      "version": "04.19",
+      "release": "10-25-2026",
+      "size": 206831616,
+      "cover_url": "https://raw.githubusercontent.com/iHaiDeeZ/DolphinPS4/main/sce_sys/icon0.png",
+      "developer": "iHaiDeeZ",
+      "license": "GPL-2.0-or-later",
+      "source_url": "https://github.com/iHaiDeeZ/DolphinPS4",
+      "official_sha256": "c97e8790a51f496dd7849fa837ef61f15290ba8f5bd73cfe090a07cf2f959650"
+    },
+    "https://github.com/kernel64/Harissa64-PS4/releases/download/v0.3.1/Harissa64-PS4-0.3.1.pkg": {
+      "name": "Harissa64 — Emulador Nintendo 64",
+      "version": "0.3.1",
+      "release": "11-12-2026",
+      "size": 31522816,
+      "cover_url": "https://raw.githubusercontent.com/kernel64/Harissa64-PS4/main/assets/icon0.png",
+      "developer": "kernel64",
+      "license": "GPL-2.0 + licenças de terceiros (THIRD_PARTY.md)",
+      "source_url": "https://github.com/kernel64/Harissa64-PS4",
+      "official_sha256": "88007ec5de209a0ad605c053bd5c84d6b1722aff6977f9b7c88230d8a944cef8"
     }
   }
 }
